@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF8">
+<title>EventosApp Manager</title>
+</head>
+<body>
+<H1> Lista de Eventos </H1>
+
+<H3><a href = "/cadastrarEvento">Cadastrar Evento</a></H3>
+<P> Olá Mundo - Gerenciador de Evento </P>
+	<div class = "row">
+	<p> <span th:text="${eventosWeb.nome}"></span></p>
+	<p> <span th:text="${eventosWeb.local}"></span></p>
+	<p> <span th:text="${eventosWeb.data}"></span></p>
+	<p> <span th:text="${eventosWeb.hora}"></span></p>
+	</div>
+</body>
+</html>

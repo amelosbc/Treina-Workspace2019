@@ -1,0 +1,11 @@
+package com.amelosbc.comercialapi.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.amelosbc.comercialapi.model.Oportunidade;
+
+public interface OportunidadeRepository extends JpaRepository<Oportunidade, Long>{
+
+	//Optional<Oportunidade> findByDescricaoAndNomeProspecto();
+	
+}

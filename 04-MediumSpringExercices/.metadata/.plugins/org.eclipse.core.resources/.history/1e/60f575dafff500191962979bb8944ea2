@@ -1,0 +1,5 @@
+package com.amelosbc.base.model;
+
+public class Donor {
+
+}

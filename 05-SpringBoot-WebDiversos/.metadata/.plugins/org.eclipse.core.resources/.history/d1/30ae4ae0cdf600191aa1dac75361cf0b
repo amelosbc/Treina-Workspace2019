@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:mysql://localhost/eventosapp?createDatabaseIfNotExist=true&useTimezone=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=root01
+spring.jpa.hibernate.ddl-auto=update 

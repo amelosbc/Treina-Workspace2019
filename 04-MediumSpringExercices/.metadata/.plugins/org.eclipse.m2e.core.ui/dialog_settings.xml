@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\SoftwareDevelopment\Treina-WorkspacesEclipse2019-06\tw.gerenciador-tarefas"/>
+			<item value="C:\SoftwareDevelopment\Treina-WorkspacesEclipse2019-06\comercial-ui\e2e"/>
+			<item value="C:\SoftwareDevelopment\Treina-WorkspacesEclipse2019-06\01-AngularSpringAlgaWorks\comercial-api"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+</section>

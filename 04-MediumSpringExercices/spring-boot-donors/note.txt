@@ -1,0 +1,5 @@
+para testar esta aplicação, siga os passos:
+1o - inicie a aplicação através do spring boot;
+2o - inicie o MySQL, o banco e tabela estao neste BD e se não existir a aplicação criará automaticamente;
+3o - usar o postman para chamar GET POST PUT DELETE para atualizar os dados do BD através de chamadas Rest
+que será tratada pelo Controler Rest da aplicação.

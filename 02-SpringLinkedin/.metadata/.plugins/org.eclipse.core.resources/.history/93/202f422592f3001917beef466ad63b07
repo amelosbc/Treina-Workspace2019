@@ -1,0 +1,12 @@
+package com.amelosbc.gerenciadortarefassecurity.controllers;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class HomeControllers {
+	@GetMapping ("/")
+	public String home(){
+		return "home/home";
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.amelosbc.base.service;
+
+public interface DonorService extends CrudRepository <Donor, Integer >{
+
+}

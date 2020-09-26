@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF8">
+<title>EventosApp Manager</title>
+</head>
+<body>
+<H1> Lista de Eventos </H1>
+
+<H3><a href = "/cadastrarEvento">Cadastrar Evento</a></H3>
+<P> Olá Mundo - Gerenciador de Evento </P>
+	<div class = "row">
+	<p> <span th:text="${"evento.nome}"></span></p>
+	<p> <span th:text="${"evento.local}"></span></p>
+	<p> <span th:text="${"evento.data}"></span></p>
+	<p> <span th:text="${"evento.horario}"></span></p>
+	</div>
+</body>
+</html>

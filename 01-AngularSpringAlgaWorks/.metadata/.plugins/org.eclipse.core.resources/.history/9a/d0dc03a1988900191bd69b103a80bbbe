@@ -1,0 +1,5 @@
+package com.amelosbc.comercialapi.model;
+
+public class Oportunidade {
+
+}

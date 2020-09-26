@@ -1,0 +1,5 @@
+package com.amelosbc.reservationdemo.data.entity;
+
+public class Room {
+
+}

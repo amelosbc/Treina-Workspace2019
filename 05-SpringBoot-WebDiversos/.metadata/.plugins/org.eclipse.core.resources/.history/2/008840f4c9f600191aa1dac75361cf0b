@@ -1,0 +1,16 @@
+package com.example.calendarioEventosManagerApp.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.example.calendarioEventosManagerApp.model.repository.EventoRepository;
+
+@Controller
+public class EventoController {
+
+	private EventoRepository er;
+	@RequestMapping("/cadastrarEvento")
+	public String form() {
+		return "evento/eventoForm";
+	}
+}

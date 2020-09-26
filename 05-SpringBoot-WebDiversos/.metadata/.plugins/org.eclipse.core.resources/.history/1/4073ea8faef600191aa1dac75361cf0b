@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="ISO-8859-1">
+<title>Evento App Manager</title>
+</head>
+<body>
+	<h1>Cadastro de Eventos:</h1>
+	<form method="post">
+	Name: <input type="text" value = "" name="nome" />
+	Local: <input type="text" value = "" name="local" />
+	Data: <input type="text" value = "" name="data" />
+	Hora: <input type="text" value = "" name="horário" />
+	
+	<button type = "submit">Salvar</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.amelosbc.reservationdemo.data.repository;
+
+public interface RoomRepository {
+
+}
