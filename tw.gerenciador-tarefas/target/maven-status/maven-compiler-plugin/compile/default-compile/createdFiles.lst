@@ -1,0 +1,4 @@
+br\com\amelosbc\treinaweb\twgerenciadortarefas\Application.class
+br\com\amelosbc\treinaweb\twgerenciadortarefas\repositorios\RepositorioTarefas.class
+br\com\amelosbc\treinaweb\twgerenciadortarefas\modelos\Tarefa.class
+br\com\amelosbc\treinaweb\twgerenciadortarefas\controllers\HomeControllers.class

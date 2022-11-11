@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Gerenciador de tarefas - Página Inicial</title>
+<!-- <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css"> -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+	<div th:replace="fragmentos/fragmentos :: cabecalho" ></div>
+ 	<div class="container">
+		<P> Olá, seja bem vindo ao Gerenciador de Tarefas!</P>
+		<p th:text="${mensagem}"></p>
+	</div>
+	<script scr="/webjars/jquery/3.4.1/jquery.min.js"></script>
+	<script scr="/webjars/bootstrap/js/bootstrap.min.js"></script>
+	
+</body>
+</html>

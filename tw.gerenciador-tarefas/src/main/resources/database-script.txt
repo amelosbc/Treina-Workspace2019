@@ -1,0 +1,16 @@
+CREATE DATABASE tw_gerenciador_tarefas;
+
+USE tw_gerenciador_tarefas;
+
+CREATE TABLE tar_tarefas
+(
+tar_id INT primary KEY auto_increment,
+tar_titulo VARCHAR(50) NOT NULL,
+tar_descricao varchar(100) DEFAULT NULL,
+tar_data_expiracao date not null,
+tar_concluida BIT DEFAULT FALSE
+);
+
+INSERT INTO tar_tarefas (tar_titulo, tar_descricao, tar_data_expiracao, tar_concluida) values ('Tarefa 1', 'Descrição da tarefa 1', now(), true)
+
+select * from tar_tarefas

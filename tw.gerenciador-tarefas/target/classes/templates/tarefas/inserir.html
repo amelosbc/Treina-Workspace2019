@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Gerenciador de tarefas - inclusão de nova tarefa</title>
+<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+	integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+	crossorigin="anonymous">
+</head>
+<body>
+
+	<div th:replace="fragmentos/fragmentos :: cabecalho"></div>
+	<div class="container">
+		<h3>Inserção de nova tarefa</h3>
+		<form class"form-horizontal" action="/tarefas/inserir" method="post"
+			th:object="${tarefa}">
+			<div class="row">
+				<div class="form-group col-md-6">
+					<div class="alert alert-danger" role="alert"
+						th:if="${#fields.hasErrors('titulo')}">
+						<label th:errors="*{titulo}" class="validation-message"></label>
+					</div>
+					<label> Título:</label> <input type="text" class="form-control" th:field="*{titulo}">
+				</div>
+			</div>
+			<div class="row">
+					<div class="alert alert-danger" role="alert"
+						th:if="${#fields.hasErrors('descricao')}">
+						<label th:errors="*{descricao}" class="validation-message"></label>
+					</div>
+				<div class="form-group col-md-6">				
+					<label> Descrição:</label> <input type="text" class="form-control" th:field="*{descricao}">
+				</div>
+			</div>
+			<div class="row">
+				<div class="form-group col-md-6">
+					<div class="alert alert-danger" role="alert"
+						th:if="${#fields.hasErrors('dataExpiracao')}">
+						<label th:errors="*{dataExpiracao}" class="validation-message"></label>
+					</div>
+					<label>Data Expiração:</label> <input type="date"
+						class="form-control" th:field="*{dataExpiracao}">
+				</div>
+			</div>
+			<button type="submit" class="btn btn-primary">Salvar!</button>
+		</form>
+	</div>
+	<script scr="/webjars/jquery/3.4.1/jquery.min.js"></script>
+	<script scr="/webjars/bootstrap/js/bootstrap.min.js"></script>
+<body>
+
+</body>
+</html>
